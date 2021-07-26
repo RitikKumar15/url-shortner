@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.box {
+    height: 60vh;
+    width: 60vw;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(7, 27, 207) 0%, rgb(15, 15, 160) 50%);
+}
+
+#link{
+    font-size: large;
+    margin-bottom: 10px;
+}
